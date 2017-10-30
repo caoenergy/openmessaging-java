@@ -33,7 +33,7 @@ public interface FutureListener<V> {
      *
      * @param future the source {@code Future} which called this callback
      */
-    void operationSucceeded(Future<V> future);
+    void operationSuccessed(Future<V> future);
 
     /**
      * Invoked when the operation associated with the {@code Future} has been completed unsuccessfully.
